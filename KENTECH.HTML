@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENTECH - IT Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Graphic Design</a></li>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Android App Design</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to KENTECH</h1>
+        <p>Your one-stop solution for IT services</p>
+        <a href="#">Learn More</a>
+    </section>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of IT services, including graphic design, web design, and Android app design. Our expert team is here to help you achieve your goals.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us 0725922611</h2>
+        <p>If you have any questions or would like to discuss your project, please get in touch with us using the form below.</p>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 KENTECH. All rights reserved.</p>
+    </footer>
+</body>
+</html>
